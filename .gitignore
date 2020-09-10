@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .idea
 .DS_Store
 node_modules/
@@ -10,3 +11,9 @@ unit-results.html
 
 =======
 >>>>>>> Settings and fund page automation
+=======
+.idea
+.DS_Store
+node_modules/
+npm-debug.log
+>>>>>>> Settings and fund automation

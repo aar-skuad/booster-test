@@ -1,47 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Continue_with_facebook" timestamp="2020-07-12T07:47:25" time="34.693" tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Continue_with_facebook" timestamp="2020-09-10T08:58:55" time="90.009" tests="1" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Continue with facebook"/>
-      <property name="capabilities" value="chrome.83_0_4103_116.windowsnt"/>
-      <property name="file" value=".\test\specs\login.spec.js"/>
+      <property name="capabilities" value="chrome.85_0_4183_102.macosx"/>
+      <property name="file" value="./test/specs/fund.spec.js"/>
     </properties>
-    <testcase classname="chrome.83_0_4103_116.windowsnt.Continue_with_facebook" name="Click_on_Continue_facebook" time="34.689">
+    <testcase classname="chrome.85_0_4183_102.macosx.Continue_with_facebook" name="Click_on_Continue_facebook" time="90.007">
+      <error message="Timeout of 90000ms exceeded. The execution in the test &quot;Continue with facebook Click on Continue facebook&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/parthhansalia/Downloads/booster-test/test/specs/fund.spec.js)"/>
       <system-out>
         <![CDATA[
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/url - {"url":"http://boosterdev.xyz/"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/url - {"url":"http://boosterdev.xyz/"}
 RESULT: {"url":"http://boosterdev.xyz/"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
 RESULT: {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
 RESULT: {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.09104422089476172-1/click - {}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element/0.08809866826721091-1/click - {}
+]]>
+      </system-out>
+      <system-err>
+        <![CDATA[
+Error: Timeout of 90000ms exceeded. The execution in the test "Continue with facebook Click on Continue facebook" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/parthhansalia/Downloads/booster-test/test/specs/fund.spec.js)
+    at Test.Runnable._timeoutError (/Users/parthhansalia/Downloads/booster-test/node_modules/mocha/lib/runnable.js:425:10)
+    at Timeout.<anonymous> (/Users/parthhansalia/Downloads/booster-test/node_modules/mocha/lib/runnable.js:237:24)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+]]>
+      </system-err>
+    </testcase>
+  </testsuite>
+  <testsuite name="Go_to_fund_page" timestamp="2020-09-10T09:00:25" time="60.944" tests="1" failures="0" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Go to fund page"/>
+      <property name="capabilities" value="chrome.85_0_4183_102.macosx"/>
+      <property name="file" value="./test/specs/fund.spec.js"/>
+    </properties>
+    <testcase classname="chrome.85_0_4183_102.macosx.Go_to_fund_page" name="Click_on_profile" time="60.944">
+      <error message="element (&quot;//*[@id=&quot;root&quot;]/div/div/div/div/nav/div/div[2]/div/ul/li[3]&quot;) still not displayed after 60000ms"/>
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
 RESULT: {}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"email"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"name","value":"email"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
 RESULT: {"using":"name","value":"email"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"email"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"name","value":"email"}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
 RESULT: {"using":"name","value":"email"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-1/clear - {}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element/0.06793036592849866-1/clear - {}
+RESULT: {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
 RESULT: {}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-1/value - {"value":["8","9","8","5","7","0","9","5","1","2"]}
-RESULT: {"value":["8","9","8","5","7","0","9","5","1","2"]}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"pass"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element/0.06793036592849866-1/value - {"value":["p","a","r","t","h","h","a","n","s","a","(15 more items)"]}
+RESULT: {"value":["p","a","r","t","h","h","a","n","s","a","(15 more items)"]}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"name","value":"pass"}
 RESULT: {"using":"name","value":"pass"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-2/clear - {}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element/0.06793036592849866-2/clear - {}
 RESULT: {}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-2/value - {"value":["@","6","2","M","a","d","h","a","v","a"]}
-RESULT: {"value":["@","6","2","M","a","d","h","a","v","a"]}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"login"}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element/0.06793036592849866-2/value - {"value":["P","@","r","t","h","9","4","2","9","3","(9 more items)"]}
+RESULT: {"value":["P","@","r","t","h","9","4","2","9","3","(9 more items)"]}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"name","value":"login"}
 RESULT: {"using":"name","value":"login"}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-3/click - {}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element/0.06793036592849866-3/click - {}
 RESULT: {}
-COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"xpath","value":".//button[normalize-space() = \"Create Facebook Post\"]"}
-RESULT: {"using":"xpath","value":".//button[normalize-space() = \"Create Facebook Post\"]"}
-COMMAND: DELETE /session/fa6628e5236b28aac33d1623365ad4d1 - {}
+COMMAND: POST /session/d190d7b865d945472c2717ac83e25f14/element - {"using":"xpath","value":"//*[@id=\"root\"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]"}
+COMMAND: DELETE /session/d190d7b865d945472c2717ac83e25f14 - {}
 RESULT: {}
 ]]>
       </system-out>
+      <system-err>
+        <![CDATA[
+Error: element ("//*[@id="root"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]") still not displayed after 60000ms
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at Fund.waitForPageLoad (/Users/parthhansalia/Downloads/booster-test/test/pageobjects/fund.page.js:12:18)
+    at Fund.clickProfileButton (/Users/parthhansalia/Downloads/booster-test/test/pageobjects/fund.page.js:23:14)
+    at Context.<anonymous> (/Users/parthhansalia/Downloads/booster-test/test/specs/fund.spec.js:14:18)
+]]>
+      </system-err>
     </testcase>
   </testsuite>
 </testsuites>
