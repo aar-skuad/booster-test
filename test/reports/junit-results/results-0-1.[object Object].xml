@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Onboarding_with_facebook" timestamp="2020-07-12T07:47:25" time="0.014" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Onboarding with facebook"/>
+      <property name="capabilities" value="chrome.83_0_4103_116.windowsnt"/>
+      <property name="file" value=".\test\specs\onboarding.spec.js"/>
+    </properties>
+    <testcase classname="chrome.83_0_4103_116.windowsnt.Onboarding_with_facebook" name="Click_on_Continue_facebook" time="0.008">
+      <system-out>
+        <![CDATA[
+COMMAND: DELETE /session/73c2901d25244e342a6ff2cb6e284fc5 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

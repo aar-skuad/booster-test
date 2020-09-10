@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Continue_with_facebook" timestamp="2020-07-12T07:47:25" time="34.693" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Continue with facebook"/>
+      <property name="capabilities" value="chrome.83_0_4103_116.windowsnt"/>
+      <property name="file" value=".\test\specs\login.spec.js"/>
+    </properties>
+    <testcase classname="chrome.83_0_4103_116.windowsnt.Continue_with_facebook" name="Click_on_Continue_facebook" time="34.689">
+      <system-out>
+        <![CDATA[
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/url - {"url":"http://boosterdev.xyz/"}
+RESULT: {"url":"http://boosterdev.xyz/"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
+RESULT: {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
+RESULT: {"using":"xpath","value":"//button[contains(text(),\"Continue with Facebook\")]"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.09104422089476172-1/click - {}
+RESULT: {}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"email"}
+RESULT: {"using":"name","value":"email"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"email"}
+RESULT: {"using":"name","value":"email"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-1/clear - {}
+RESULT: {}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-1/value - {"value":["8","9","8","5","7","0","9","5","1","2"]}
+RESULT: {"value":["8","9","8","5","7","0","9","5","1","2"]}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"pass"}
+RESULT: {"using":"name","value":"pass"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-2/clear - {}
+RESULT: {}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-2/value - {"value":["@","6","2","M","a","d","h","a","v","a"]}
+RESULT: {"value":["@","6","2","M","a","d","h","a","v","a"]}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"name","value":"login"}
+RESULT: {"using":"name","value":"login"}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element/0.6666590867758355-3/click - {}
+RESULT: {}
+COMMAND: POST /session/fa6628e5236b28aac33d1623365ad4d1/element - {"using":"xpath","value":".//button[normalize-space() = \"Create Facebook Post\"]"}
+RESULT: {"using":"xpath","value":".//button[normalize-space() = \"Create Facebook Post\"]"}
+COMMAND: DELETE /session/fa6628e5236b28aac33d1623365ad4d1 - {}
+RESULT: {}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

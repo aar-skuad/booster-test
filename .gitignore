@@ -2,8 +2,11 @@
 .DS_Store
 node_modules/
 npm-debug.log
+<<<<<<< HEAD
 .env.test
 test/reports/
 allure-report/
 unit-results.html
 
+=======
+>>>>>>> Settings and fund page automation

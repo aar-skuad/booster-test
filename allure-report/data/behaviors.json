@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Click on Continue facebook",
+    "uid" : "a2b1fcaa4c581160",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1594520245602,
+      "stop" : 1594520280290,
+      "duration" : 34688
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-83.0.4103.116" ]
+  } ]
+}

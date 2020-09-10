@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594520245600' stop='1594520280292'>
+    <name>Continue with facebook</name>
+    <title>Continue with facebook</title>
+    <test-cases>
+        <test-case start='1594520245602' status='passed' stop='1594520280290'>
+            <name>Click on Continue facebook</name>
+            <title>Click on Continue facebook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -6,7 +6,11 @@ describe("Continue with facebook", () => {
   it("Click on Continue facebook", () => {  
       homePage.open()
       homePage.clickContinueFacebook();
+<<<<<<< HEAD
       homePage.loginFacebook('','');
+=======
+      homePage.loginFacebook('8985709512','@62Madhava');
+>>>>>>> Settings and fund page automation
       influencerPage.clickCreateFBPost();
 
       //verification of login

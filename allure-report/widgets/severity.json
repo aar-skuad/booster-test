@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a2b1fcaa4c581160",
+  "name" : "Click on Continue facebook",
+  "time" : {
+    "start" : 1594520245602,
+    "stop" : 1594520280290,
+    "duration" : 34688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

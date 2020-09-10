@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Continue with facebook",
+    "children" : [ {
+      "name" : "Click on Continue facebook",
+      "uid" : "a2b1fcaa4c581160",
+      "parentUid" : "800238c2b8f45655f3335146e7123513",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594520245602,
+        "stop" : 1594520280290,
+        "duration" : 34688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-83.0.4103.116" ]
+    } ],
+    "uid" : "800238c2b8f45655f3335146e7123513"
+  } ]
+}

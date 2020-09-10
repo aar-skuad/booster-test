@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Continue with facebook",
+    "children" : [ {
+      "name" : "Click on Continue facebook",
+      "uid" : "a2b1fcaa4c581160",
+      "parentUid" : "4ac9194c6da91024d25f16530c3f028d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594520245602,
+        "stop" : 1594520280290,
+        "duration" : 34688
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-83.0.4103.116" ]
+    } ],
+    "uid" : "4ac9194c6da91024d25f16530c3f028d"
+  } ]
+}

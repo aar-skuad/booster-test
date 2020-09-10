@@ -1,0 +1,58 @@
+{
+  "uid" : "a2b1fcaa4c581160",
+  "name" : "Click on Continue facebook",
+  "fullName" : "Continue with facebook.Click on Continue facebook",
+  "historyId" : "8a34ebdf4b8c314314d8959c609374e0",
+  "time" : {
+    "start" : 1594520245602,
+    "stop" : 1594520280290,
+    "duration" : 34688
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Continue with facebook"
+  }, {
+    "name" : "testClass",
+    "value" : "Continue with facebook"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on Continue facebook"
+  }, {
+    "name" : "package",
+    "value" : "Continue with facebook"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-83.0.4103.116"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2b1fcaa4c581160.json",
+  "parameterValues" : [ "chrome-83.0.4103.116" ]
+}
