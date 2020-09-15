@@ -29,7 +29,7 @@ class Fund extends Page {
         this.boostAmount.setValue('86');
         browser.pause(5000); 
     }
-
+ 
 
 
 }
