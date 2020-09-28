@@ -21,6 +21,15 @@ describe("Continue with facebook", () => {
     });
   });
 
+  describe("Fund page details", () => {
+    it("Verify image", () => {  
+        fundPage.verifyImage();
+    });
+    it("Verify fund page title", () => {  
+      fundPage.verifyTitle('Mytestingpage');
+    });
+  });
+
   describe("Fund page verification", () => {
     it("Go to Fund page", () => {  
         fundPage.getBoostAmountOnFundPage(boostAmount);
@@ -30,11 +39,4 @@ describe("Continue with facebook", () => {
     });
   });
 
-  describe("Fund page details", () => {
-    it("Verify image", () => {  
-        fundPage.verifyImage();
-    });
-    it("Verify fund page title", () => {  
-      fundPage.verifyTitle('Mytestingpage');
-    });
-  });
+  

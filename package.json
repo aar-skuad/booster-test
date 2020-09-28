@@ -35,6 +35,7 @@
     "@wdio/selenium-standalone-service": "^6.1.0",
     "allure-commandline": "^2.13.0",
     "assert": "^1.4.1",
+    "bluebird": "^3.7.2",
     "chai": "^4.2.0",
     "dotenv": "^8.1.0",
     "lodash": "^4.17.19",

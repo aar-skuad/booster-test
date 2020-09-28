@@ -1,10 +1,8 @@
 import Page from './page'
-import db from "../pgAdaptor"
-
 
 class Fund extends Page {
 
-    get clickOnProfile() {return $('//*[@id="root"]/div/div/div/div/nav/div/div[2]/div/ul/li[3]');}
+    get clickOnProfile() {return $('(//*[@class="nav-item"])[3]');}
     get boostAmount() {return $('(//*[@class="form-control"])[1]');}
     get clickOnboostButton() {return $('(//*[@class="btn btn-primary"])[3]');}
     get getBoostAmount() {return $('(//*[@class="form-control"])[1]');}
@@ -50,6 +48,14 @@ class Fund extends Page {
         this.clickOnboostButton.click();
     }
 
+    verifyImage() {
+        this.fundPageImage.isDisplayed();
+    }
+
+    verifyTitle(title) {
+        this.fundPageTitle.getText() == title;
+    }
+
     getBoostAmountOnFundPage(boostAmount){
         this.getBoostAmount.getValue() == boostAmount && this.getCheckOutBoostAmount.getValue() == boostAmount;
         browser.pause(5000); 
@@ -77,13 +83,7 @@ class Fund extends Page {
         browser.pause(5000); 
     }
 
-    verifyImage() {
-        this.fundPageImage.isDisplayed();
-    }
-
-    verifyTitle(title) {
-        this.fundPageTitle.getText() == title;
-    }
+   
 
 }
 
