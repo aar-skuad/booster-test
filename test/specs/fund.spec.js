@@ -14,14 +14,27 @@ describe("Continue with facebook", () => {
   describe("Go to fund page", () => {
     it("Click on profile", () => {  
         fundPage.clickProfileButton();
-        fundPage.enterBoostAmount(boostAmount);
-        fundPage.clickOnBoost();
+    });
+    it("Mentioned Boost amount", () => {  
+      fundPage.enterBoostAmount(boostAmount);
+      fundPage.clickOnBoost();
     });
   });
 
   describe("Fund page verification", () => {
     it("Go to Fund page", () => {  
         fundPage.getBoostAmountOnFundPage(boostAmount);
-        fundPage.enterCheckoutFormInfo('parth@skuad.io','parth','BTM','360490','Gujarat');
+    });
+    it("Enter check out form information", () => {  
+      fundPage.enterCheckoutFormInfo('parth@skuad.io','parth','BTM','360490','Gujarat');
+    });
+  });
+
+  describe("Fund page details", () => {
+    it("Verify image", () => {  
+        fundPage.verifyImage();
+    });
+    it("Verify fund page title", () => {  
+      fundPage.verifyTitle('Mytestingpage');
     });
   });

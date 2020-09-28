@@ -1,4 +1,5 @@
 import Page from './page'
+import db from "../pgAdaptor"
 
 
 class Fund extends Page {
@@ -18,6 +19,8 @@ class Fund extends Page {
     get communicationByEmail() {return $('(//*[@class="form-check-input"])[2]');}
     get testPageCommunicationByEmail() {return $('(//*[@class="form-check-input"])[5]');}
     get clickPayButton() {return $('button.w-100.mb-4.mt-3.btn.btn-primary');}
+    get fundPageImage() {return $('img._28apf4');}
+    get fundPageTitle() {return $('h1._2e6d11');}
 
 
 
@@ -73,8 +76,14 @@ class Fund extends Page {
         this.clickPayButton.click();
         browser.pause(5000); 
     }
- 
 
+    verifyImage() {
+        this.fundPageImage.isDisplayed();
+    }
+
+    verifyTitle(title) {
+        this.fundPageTitle.getText() == title;
+    }
 
 }
 
