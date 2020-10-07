@@ -19,6 +19,8 @@ class Fund extends Page {
     get clickPayButton() {return $('button.w-100.mb-4.mt-3.btn.btn-primary');}
     get fundPageImage() {return $('img._28apf4');}
     get fundPageTitle() {return $('h1._2e6d11');}
+    get fundPageHeadLine() {return $('span._2cpzw8');}
+    get fundPageBioGraphy() {return $('span.hefgnw');}
 
 
 
@@ -54,6 +56,14 @@ class Fund extends Page {
 
     verifyTitle(title) {
         this.fundPageTitle.getText() == title;
+    }
+
+    verifyHeadLine(headLine) {
+        this.fundPageHeadLine.getText() == headLine;
+    }
+
+    verifyBioGraphy(bioGraphy) {
+        this.fundPageBioGraphy.getText() == bioGraphy;
     }
 
     getBoostAmountOnFundPage(boostAmount){

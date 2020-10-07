@@ -28,6 +28,12 @@ describe("Continue with facebook", () => {
     it("Verify fund page title", () => {  
       fundPage.verifyTitle('Mytestingpage');
     });
+    it("Verify fund page Headline", () => {  
+      fundPage.verifyTitle('Automation');
+    });
+    it("Verify fund page biography details", () => {  
+      fundPage.verifyTitle('My testing automation page.');
+    });
   });
 
   describe("Fund page verification", () => {
